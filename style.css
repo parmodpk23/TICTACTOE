@@ -128,7 +128,7 @@
 }
 @media only screen and (max-width: 800px) {
     .gameBox {
-        font-size: 8rem;
+        font-size: 6rem;
     }
     .ch-w {
         width: 88% !important;
@@ -146,8 +146,8 @@
         width: 100vw;
         height: 45vh;
         align-content: center;
-        grid-template-rows: repeat(3, 22vw);
-        grid-template-columns: repeat(3, 22vw);
+        grid-template-rows: repeat(3, 20vw);
+        grid-template-columns: repeat(3, 20vw);
         border: none;
     }
     .rightContainer {
@@ -181,7 +181,7 @@
 }
 @media only screen and (max-width: 497px) {
     .leftContainer {
-        height: 35vh;
+        height: 33vh;
     }
     .rightContainer h2 {
         font-size: 1.4em;
