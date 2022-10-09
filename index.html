@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="main">
+    <navbar class="logo">
+            <h1>TIC TAC TOE</h1>
+    </navbar>
+    <div class="mainContainer">
+        <div class="leftContainer">
+            <img src="winner.gif" alt="">
+
+            <span class="gameBox br-l br-t" data-cell></span>
+            <span class="gameBox br-t br-l" data-cell></span>
+            <span class="gameBox br-r br-l br-t" data-cell></span>
+            <span class="gameBox br-l br-t" data-cell></span>
+            <span class="gameBox br-l br-t" data-cell></span>
+            <span class="gameBox br-l br-t br-r" data-cell></span>
+            <span class="gameBox br-b br-l br-t" data-cell></span>
+            <span class="gameBox br-b br-l br-t" data-cell></span>
+            <span class="gameBox br-r br-b br-l br-t" data-cell></span>
+        </div>
+        <div class="rightContainer">
+            <h2>Let's Play <span>TIC TAC TOE GAME</span></h2>
+            <div class="turnreset">
+            <span class="turn">It's turn for X</span>
+            <button id="reset">Reset</button>
+        </div>
+
+        </div>
+    </div>
+</section>
+    <script src="script.js"></script>
+</body>
+</html>
