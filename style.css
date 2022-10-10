@@ -121,6 +121,10 @@
 @media only screen and (max-width: 850px) {
     .ch-w {
         width: 44% !important;
+        
+    }
+
+    .leftContainer img {
         height: 20% !important;
         top: 7.9em !important;
         left: 1em !important;
@@ -128,15 +132,15 @@
 }
 @media only screen and (max-width: 800px) {
     .gameBox {
-        font-size: 6rem;
+        font-size: 5rem;
     }
     .ch-w {
         width: 88% !important;
     }
     .leftContainer img {
-        height: 35%; 
-        top: 25em;
-        left: 1em;
+        height: 30% !important; 
+        top: 25em !important;
+        left: 1em !important;
     }
     .mainContainer{
         flex-direction: column-reverse;
@@ -179,7 +183,7 @@
         height: 2em;
     }
 }
-@media only screen and (max-width: 497px) {
+@media only screen and (max-width: 500px) {
     .leftContainer {
         height: 33vh;
     }
