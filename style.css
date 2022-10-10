@@ -207,5 +207,10 @@
         width: 230px;
         text-align: center;
     }
+    .leftContainer img {
+        height: 35% !important; 
+        top: 25em !important;
+        left: .9em !important;
+    }
 }
 
